@@ -12,5 +12,5 @@ class Test():
         print("test_02")
         assert 1 == 1
 
-    if __name__ == "__main__":
-        pytest.main(["-rs", "test_skip7.py"])
+if __name__ == "__main__":
+    pytest.main(["-rs", "test_skip7.py"])
